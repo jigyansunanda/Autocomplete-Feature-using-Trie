@@ -7,3 +7,4 @@ Yes. From System-Design perspective, this can be very intersting design work. Ho
  - No suggestions based on geographical location of user
  - No suggestions based on current trends
  - No spell-check
+ - Support for only English language
