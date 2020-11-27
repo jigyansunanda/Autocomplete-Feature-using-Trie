@@ -8,6 +8,13 @@ Yes. From System-Design perspective, this can be very intersting design work. Ho
  - No suggestions based on current trends
  - No spell-check
  - Support for only English language
+ 
+## Run The Program
+**Download the `AutoComplete.java` file into local memory.**</br>
+**Open terminal and go to the directory in which `AutoComplete.java` file is stored.**</br>
+**Compile using command `javac AutoComplete.java`**</br>
+**Execute using command `java AutoComplete`**</br>
+**Proceed as instructed by the program**
 
 
 ## Implementation
