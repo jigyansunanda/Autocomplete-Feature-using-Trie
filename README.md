@@ -1,23 +1,27 @@
 # Simple Typeahead Suggestions (using Trie)
+
 The simplest, non-scalable feature (implemented using Trie data structure), that suggests next words of queries based on user input.
 
 ## This design is extremely flawed
+
 Yes. From System-Design perspective, this can be very intersting design work. However, this current project only focuses on using basics of Trie functionality to implement the simplest possible typeahead sugestion feature. Hence this design project has following flaws, compared to a full-fledged typeahead / autocomplete feature used in search engines like Google, Bing etc.
- - Non-scalability
- - No suggestions based on geographical location of user
- - No suggestions based on current trends
- - No spell-check
- - Support for only English language
- 
+
+-   Non-scalability
+-   No suggestions based on geographical location of user
+-   No suggestions based on current trends
+-   No spell-check
+-   Support for only English language
+
 ## Run The Program
+
 Download the `AutoComplete.java` file into local memory</br></br>
 Open terminal and go to the directory in which `AutoComplete.java` file is stored</br></br>
 Compile using command `javac AutoComplete.java`</br></br>
 Execute using command `java AutoComplete`</br></br>
 Proceed as instructed by the program
 
-
 ## Implementation
+
 ```java
 import java.io.*;
 import java.util.*;
@@ -56,6 +60,7 @@ public class AutoComplete {
 				continue;
 			}
 		}
+		sc.close();
 	}
 }
 
